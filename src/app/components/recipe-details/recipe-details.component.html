@@ -1,0 +1,12 @@
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+      <h2 class="text-center">{{ recipe?.name }}</h2>
+      <hr />
+      <p><strong>🍽️ Ingredients:</strong> {{ recipe?.ingredients }}</p>
+      <p><strong>📖 Instructions:</strong> {{ recipe?.instructions }}</p>
+      <div class="text-center mt-4">
+        <button class="btn btn-secondary" (click)="goBack()">⬅️ Back to Recipes</button>
+      </div>
+    </div>
+  </div>
+  
